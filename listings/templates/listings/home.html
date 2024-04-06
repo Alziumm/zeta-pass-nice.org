@@ -1,0 +1,195 @@
+{% extends 'listings/main.html' %}{% load static %}
+{% block head_inject %}
+{% endblock head_inject %}
+{% block content %}
+<section class = "main-vision-container">
+    <div class="centred">
+        <h2 class="h2 hero-title">ZETA-PASS-NICE, une association qui lutte contre la précarité étudiante :</h2>
+    </div>
+    <div class = "vision-content vision-background">
+        <div class = "vision-container-left">
+
+            <div class="main-qualityservices-container swiper">
+                <div class="slide-content2">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide addslide background_morphism">
+                            <img src = "{% static 'listings/IMG/slider-1.jpg'%}" class = "animation-icon" alt = "Icône animé qui illustre le processus de personnalisation de notre entreprise de Développement Web.">
+                        </div>
+                        <div class="card swiper-slide addslide background_morphism" >
+                            <img src = "{% static 'listings/IMG/slider-2.jpg'%}" class = "animation-icon" alt = "Icône animé qui illustre la mise en oeuvre de moyen important pour sécuriser les applications SDEV.">
+                        </div>
+                        <div class="card swiper-slide addslide background_morphism" >
+                            <img src = "{% static 'listings/IMG/slider-3.jpg'%}" class = "animation-icon" alt = "Icône animé qui illustre la mise en oeuvre de moyen important pour sécuriser les applications SDEV.">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class = "vision-container-right">
+            <div class = "centred mt20-special">
+                <div class="vision-img">                   
+                    <p class="hero-text">Initiative portée par six étudiants de l'EDHEC Business School, ZETA-PASS-NICE se démarque en tant qu'association étudiante engagée dans la lutte contre la précarité étudiante. Consciente des défis financiers auxquels font face de nombreux étudiants, cette organisation vise à alléger le fardeau du coût de la vie en rendant la gastronomie et la restauration plus abordables. Grâce à des partenariats stratégiques, ZETA-PASS-NICE offre des réductions substantielles sur divers services de restauration, ouvrant ainsi les portes d'une alimentation variée et de qualité. L'association s'efforce de créer un équilibre entre une alimentation saine et la gestion du budget étudiant. En rejoignant ZETA-PASS-NICE, les étudiants bénéficient non seulement de tarifs préférentiels, mais s'inscrivent également dans un mouvement solidaire visant à réduire l'impact de la précarité étudiante.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="centred">
+        <a href="https://www.helloasso.com/associations/zeta-pass-nice/formulaires/1" target="_blank">
+            <button class = "button-donation">Faire un don</button>
+        </a>
+        
+    </div>
+</section>
+<section class="rev">
+    <div class="centred ">
+        <h2 class="h2 hero-title">Ce que pense nos adhérents :</h2>
+    </div>
+    <div class = "cdf bpr mt30">
+        <div class = "l" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="0">
+            <svg class = "star s1 dn" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 516.000000 516.000000" preserveAspectRatio="xMidYMid meet">
+                <g transform="translate(0.000000,516.000000) scale(0.100000,-0.100000)" fill="var(--pure)" stroke="none">
+                    <path d="M2495 4846 c-57 -26 -104 -75 -139 -144 -13 -26 -112 -306 -219 -621 -209 -613 -208 -611 -301 -682 -92 -70 -73 -68 -768 -79 -591 -10 -631 -12 -695 -31 -54 -17 -77 -31 -114 -69 -93 -95 -88 -220 14 -336 17 -21 255 -205 528 -409 539 -405 542 -408 574 -530 8 -32 15 -76 15 -97 0 -21 -81 -302 -181 -626 -198 -640 -207 -681 -175 -780 21 -63 86 -126 147 -142 62 -17 138 -4 217 36 37 19 281 185 542 370 261 184 491 343 510 352 48 22 221 22 270 1 19 -9 253 -170 520 -359 267 -188 513 -356 546 -372 117 -55 213 -47 289 23 61 57 79 108 73 211 -5 71 -30 163 -182 653 -97 313 -179 586 -182 606 -9 52 13 145 49 213 31 58 45 70 527 431 279 209 515 394 542 423 144 161 79 358 -133 410 -30 8 -274 15 -664 22 -340 6 -629 13 -644 17 -77 18 -177 91 -215 156 -14 23 -113 301 -221 617 -108 316 -206 591 -217 610 -53 89 -144 150 -223 150 -22 0 -63 -11 -90 -24z"/>
+                </g>
+            </svg>
+            <svg class = "star s2 dn" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 516.000000 516.000000" preserveAspectRatio="xMidYMid meet" >
+                <g transform="translate(0.000000,516.000000) scale(0.100000,-0.100000)" fill="var(--pure)" stroke="none">
+                    <path d="M2518 4841 c-72 -23 -123 -72 -168 -160 -12 -25 -109 -298 -215 -608 -126 -369 -202 -577 -220 -604 -16 -22 -53 -58 -81 -78 -97 -69 -90 -69 -779 -79 -680 -10 -678 -10 -764 -73 -60 -43 -96 -122 -88 -196 6 -61 40 -125 94 -179 19 -20 247 -194 507 -388 259 -194 483 -366 498 -382 44 -47 80 -139 85 -213 4 -63 -4 -93 -18 -651 -174 -558 -182 -589 -183 -670 -1 -70 3 -92 21 -127 66 -123 213 -155 357 -78 25 13 264 178 531 366 328 230 501 346 532 355 61 18 167 18 229 -1 35 -11 191 -115 539 -361 270 -191 513 -357 542 -370 136 -65 274 -28 335 89 18 34 22 58 22 127 -1 82 -8 109 -183 670 -173 557 -182 588 -178 651 5 74 41 166 85 213 15 16 248 194 517 396 413 309 496 375 528 421 63 92 72 161 33 246 -16 34 -39 63 -67 83 -83 60 -97 62 -639 71 -857 14 -777 10 -843 43 -83 40 -150 112 -181 194 -14 37 -104 297 -200 578 -174 511 -197 570 -244 632 -52 68 -168 107 -244 83z m232 -961 c89 -261 176 -502 194 -535 41 -79 162 -201 251 -253 132 -77 167 -84 460 -93 143 -4 389 -8 548 -8 158 -1 287 -4 286 -8 0 -5 -185 -145 -411 -313 -225 -168 -430 -327 -454 -354 -59 -65 -109 -151 -142 -245 -23 -67 -26 -91 -27 -206 l0 -130 153 -493 c85 -272 152 -495 150 -497 -2 -2 -187 127 -413 286 -225 159 -437 303 -471 319 -75 36 -171 60 -246 60 l-58 0 0 613 c0 610 11 2339 15 2335 2 -2 76 -217 165 -478z"/>
+                </g>
+            </svg>
+            <svg class = "star s3 dn" version="1.0" xmlns="http://www.w3.org/2000/svg" width="516.000000pt" height="516.000000pt" viewBox="0 0 516.000000 516.000000" preserveAspectRatio="xMidYMid meet" >
+                <g transform="translate(0.000000,516.000000) scale(0.100000,-0.100000)" fill="#ffffff" stroke="none"> 
+                    <path d="M2495 4826 c-55 -25 -104 -74 -135 -136 -11 -21 -105 -292 -210 -601 -104 -309 -201 -582 -215 -605 -30 -52 -94 -106 -161 -136 -56 -26 -6 -23 -824 -37 -481 -8 -497 -9 -555 -31 -184 -70 -218 -268 -72 -413 23 -23 252 -200 509 -394 256 -194 480 -369 497 -390 46 -56 74 -136 75 -218 1 -64 -15 -121 -176 -645 -98 -316 -181 -600 -184 -631 -15 -128 56 -243 165 -269 65 -15 121 -7 197 29 32 16 272 180 532 365 260 184 487 344 505 353 40 22 224 25 273 5 17 -7 249 -168 515 -358 266 -189 508 -355 537 -369 138 -67 274 -29 333 92 19 39 23 63 22 128 -1 74 -16 128 -183 670 -169 548 -181 594 -176 646 8 87 41 163 94 218 26 27 257 207 514 401 257 193 480 368 496 388 52 66 66 103 67 172 0 80 -24 131 -84 177 -82 63 -96 65 -636 74 -816 14 -763 11 -819 37 -67 30 -131 84 -161 136 -14 23 -111 296 -215 605 -105 309 -199 580 -210 601 -48 93 -141 160 -225 160 -22 0 -63 -11 -90 -24z m260 -951 c91 -269 180 -514 197 -543 90 -159 280 -291 459 -322 36 -6 283 -14 568 -18 l504 -7 -421 -319 c-291 -219 -435 -334 -463 -370 -114 -142 -174 -349 -150 -513 7 -43 78 -295 160 -561 81 -265 147 -482 145 -482 -2 0 -189 132 -417 294 -227 161 -432 303 -456 315 -161 83 -444 80 -599 -4 -26 -14 -230 -156 -455 -315 -224 -160 -409 -290 -411 -290 -1 0 67 226 152 503 l155 502 0 105 c1 128 -17 201 -78 326 -29 59 -62 109 -97 145 -29 30 -235 191 -457 359 l-404 305 504 7 c290 4 532 12 569 18 177 31 370 166 460 323 16 28 104 273 196 544 92 272 168 492 170 490 2 -1 78 -223 169 -492z"/>
+                </g>
+            </svg>
+            <div class = "rc">
+                <svg id = "next" onclick="n()" version="1.0" xmlns="http://www.w3.org/2000/svg"  width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#ffffff" stroke="none">
+                        <path d="M2325 5109 c-649 -66 -1218 -351 -1656 -826 -167 -182 -289 -363 -404 -598 -123 -250 -194 -477 -237 -750 -31 -200 -31 -550 0 -750 43 -273 114 -500 237 -750 148 -302 323 -536 572 -766 182 -167 363 -289 598 -404 250 -123 477 -194 750 -237 200 -31 550 -31 750 0 273 43 500 114 750 237 235 115 416 237 598 404 249 230 424 464 572 766 123 250 194 477 237 750 31 200 31 550 0 750 -43 273 -114 500 -237 750 -148 302 -323 536 -572 766 -182 167 -363 289 -598 404 -249 122 -482 196 -747 236 -154 23 -474 33 -613 18z m475 -429 c389 -47 748 -193 1063 -432 105 -80 305 -280 385 -385 239 -315 385 -674 432 -1063 13 -109 13 -371 0 -480 -47 -389 -193 -748 -432 -1063 -80 -105 -280 -305 -385 -385 -315 -239 -674 -385 -1063 -432 -109 -13 -371 -13 -480 0 -389 47 -748 193 -1063 432 -105 80 -305 280 -385 385 -239 315 -385 674 -432 1063 -13 109 -13 371 0 480 47 389 193 748 432 1063 80 105 280 305 385 385 309 234 671 383 1048 431 100 12 395 13 495 1z"/>
+                        <path d="M2045 3816 c-27 -13 -58 -32 -67 -42 -29 -33 -58 -107 -58 -149 0 -86 17 -106 508 -597 l467 -468 -467 -467 c-491 -492 -508 -512 -508 -598 0 -42 29 -116 58 -149 26 -30 113 -66 157 -66 87 1 102 13 668 578 296 295 553 557 570 582 29 41 32 52 32 120 0 68 -3 79 -32 120 -17 25 -274 287 -570 582 -566 565 -581 577 -668 578 -22 0 -62 -11 -90 -24z"/>
+                    </g>
+                </svg>
+                <div class="rsc">
+                    <div class="sld">
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" class = "ri" width="50" height="50" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#ffffff" stroke="none">
+                                <path d="M1000 4325 c-505 -86 -909 -497 -985 -1002 -90 -594 273 -1162 851 -1332 39 -12 92 -24 118 -27 25 -4 46 -10 46 -15 0 -4 -9 -57 -21 -116 -46 -240 -164 -526 -304 -740 -37 -57 -70 -117 -74 -135 -22 -98 58 -186 158 -176 95 10 403 179 606 333 447 338 783 842 920 1380 77 303 103 609 70 828 -59 392 -328 747 -689 912 -205 94 -473 128 -696 90z"/>
+                                <path d="M3720 4325 c-505 -86 -909 -497 -985 -1002 -90 -594 273 -1162 851 -1332 39 -12 92 -24 118 -27 25 -4 46 -10 46 -15 0 -4 -9 -57 -21 -116 -46 -240 -164 -526 -304 -740 -37 -57 -70 -117 -74 -135 -22 -98 58 -186 158 -176 95 10 403 179 606 333 447 338 783 842 920 1380 77 303 103 609 70 828 -59 392 -328 747 -689 912 -205 94 -473 128 -696 90z"/>
+                            </g>
+                        </svg>
+                        <div class="reviewuser">
+                            <img src = "{% static 'listings/IMG/adherant-1.jpg'%}" class = "ci" alt="Customer picture">
+                            <div class = "reviewuserinfo">
+                                <h3>Morgane :</h3>
+                                <div class="stars" note="4.5"></div>
+                            </div>
+                        </div>
+                        <p class = "reviewtext">Grâce à Zeta Pass et aux réductions qu'ils nous proposent, j'ai pu découvrir de nombreux restaurants sans me ruiner.</p>
+                    </div>
+                </div>
+                <div class="rsc act">
+                    <div class="sld">
+                        <div id="to-copy"></div>
+                        <div class="reviewuser">
+                            <img src = "{% static 'listings/IMG/adherant-2.jpg'%}" class = "ci" alt="Customer picture">
+                            <div class = "reviewuserinfo">
+                                <h3>Laurent :</h3>
+                                <div class="stars" note = "4"></div>
+                            </div>
+                        </div>
+                        <p class = "reviewtext">Les réductions de l'association m'ont permis de découvrir la cuisine libanaise que je ne connaissais pas du tout, je ne pense pas que j'y serais aller par moi même.</p>
+                    </div>
+                </div>
+                <div class="rsc act">
+                    <div class="sld">
+                        <div id="to-copy"></div>
+                        <div class="reviewuser">
+                            <img src = "{% static 'listings/IMG/adherant-3.jpg'%}" class = "ci" alt="Customer picture">
+                            <div class = "reviewuserinfo">
+                                <h3>Adrien :</h3>
+                                <div class="stars" note="5"></div>
+                            </div>
+                        </div>
+                        <p class = "reviewtext">Zeta Pass n'est pas seulement un avantage financier pour moi, mais aussi une opportunité d'expérimenter de nouveaux plats et cultures culinaires.</p>
+                    </div>
+                </div>
+                <svg id = "prev" version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet" onclick="p()">
+                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#ffffff" stroke="none">
+                        <path d="M2325 5109 c-649 -66 -1218 -351 -1656 -826 -167 -182 -289 -363 -404 -598 -123 -250 -194 -477 -237 -750 -31 -200 -31 -550 0 -750 43 -273 114 -500 237 -750 148 -302 323 -536 572 -766 182 -167 363 -289 598 -404 250 -123 477 -194 750 -237 200 -31 550 -31 750 0 273 43 500 114 750 237 235 115 416 237 598 404 249 230 424 464 572 766 123 250 194 477 237 750 31 200 31 550 0 750 -43 273 -114 500 -237 750 -148 302 -323 536 -572 766 -182 167 -363 289 -598 404 -249 122 -482 196 -747 236 -154 23 -474 33 -613 18z m475 -429 c389 -47 748 -193 1063 -432 105 -80 305 -280 385 -385 239 -315 385 -674 432 -1063 13 -109 13 -371 0 -480 -47 -389 -193 -748 -432 -1063 -80 -105 -280 -305 -385 -385 -315 -239 -674 -385 -1063 -432 -109 -13 -371 -13 -480 0 -389 47 -748 193 -1063 432 -105 80 -305 280 -385 385 -239 315 -385 674 -432 1063 -13 109 -13 371 0 480 47 389 193 748 432 1063 80 105 280 305 385 385 309 234 671 383 1048 431 100 12 395 13 495 1z"/>
+                        <path d="M2900 3819 c-34 -15 -175 -150 -583 -557 -296 -295 -553 -557 -570 -582 -29 -41 -32 -52 -32 -120 0 -68 3 -79 32 -120 17 -25 274 -287 570 -582 566 -565 581 -577 668 -578 44 0 131 36 157 66 29 33 58 107 58 149 0 86 -17 106 -508 598 l-467 467 467 468 c491 491 507 510 508 597 0 44 -36 131 -66 157 -33 29 -107 58 -149 58 -22 0 -60 -10 -85 -21z"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class = "r" data-aos="fade-down" data-aos-duration="2500" data-aos-delay="0">
+            <div class = "c">
+                <img src= "{% static 'listings/IMG/SCALE.png'%}" alt="" class="scale-img">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class = "team" id = "team">
+    <div class="centred mb30">
+        <h2 class="h2 hero-title">Notre équipe :</h2>
+    </div>
+    <div class="team-centred">
+        <div class = "team-build">
+            <img src="{% static 'listings/IMG/team_1.png'%}" alt="" class = "team-img">
+            <img src="{% static 'listings/IMG/team_2.png'%}" alt="" class = "team-img">
+            <img src="{% static 'listings/IMG/team_3.png'%}" alt="" class = "team-img">
+            <img src="{% static 'listings/IMG/team_4.jpeg'%}" alt="" class = "team-img">
+            <img src="{% static 'listings/IMG/team_5.png'%}" alt="" class = "team-img">
+            <img src="{% static 'listings/IMG/team_6.png'%}" alt="" class = "team-img">
+        </div>
+    </div>
+</section>
+
+<section id = "contact">
+
+    <div class="centred mt50">
+        <h2 class="h2 hero-title">Nous contacter :</h2>
+    </div>
+
+    <div class = "centred">
+
+        <div class="contact-wrapper df">
+
+            <form method="POST" target = "_self" class="contact-form">
+
+                <div class="wrapper-flex">
+
+                    <div class="input-wrapper">
+                        <label for="name">Prénom & Nom* :</label>
+                        <input type="text" name="name" id="name" maxlength="64" required="" placeholder="Prénom & Nom" class="input-field">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="emai">Email* :</label>
+                        <input type="email" name="email" id="email" maxlength="64" required="" placeholder="Email" class="input-field">
+                    </div>
+
+                </div>
+                
+                <div class="input-wrapper mt15">
+                    <label for="message" class="message">Message* :</label>
+                    <textarea name="message" id="message" maxlength="1024" required="" placeholder="Décrivez votre demande" class="input-field"></textarea>
+                </div>
+                
+                <div class="centred">
+                    <p class="status" color = "{{ status_color }}"></p>
+                </div>
+                <div class = "centred">
+                    <button type="submit" class="my-btn btn-primary mt25">
+                        <span>Envoyer</span>
+                    </button>
+                </div>
+                {% csrf_token %}
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock content %}
+{% block script %}
+<script src="{% static 'listings/JS/home.js'%}"></script>
+{% endblock script %}
